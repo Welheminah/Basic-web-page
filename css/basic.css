@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong');
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    min-height: 250vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    flex-wrap: wrap;
+}
+
+section {
+    width: 96%;
+    height: 100;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #D3D3D3 ;
+    padding: 20px 10px;
+}
+
+.header a {
+    float: left;
+    color: 	#13274F;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 50px;
+    line-height: 35px;
+    border-radius: 4px;
+    font-family: Sofia;
+    font-weight: 595;
+    
+
+}
+
+.header a logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header a.active {
+    background-color: violet;
+    color: red;
+}
+
+.header a:hover {
+    background-color: green;
+    color: white;
+}
+
+.header-right {
+    float: right;
+}
+
+@media screen and (max-width: 600px){
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header-right{
+        float: none;
+    }
+}
+
+
+
+.second {
+    font-size: xx-large;
+    color: #404040;
+}
+
+.second h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    text-decoration: underline;
+    color: #778899;
+    font-family: "Trirong", serif;
+    border-top: 5px solid #778899;
+}
+
+.second img {
+    padding: 1em;
+}
+
+/* The table styling */
+.foreign {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1.5em;
+    min-width: 600px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(red, green, blue, alpha);
+
+}
+.foreign thead td {
+    background-color: blue;
+    color: burlywood;
+    text-align: left;
+    font-weight: bold;
+
+}
+.tafel h2{
+font-size: xx-large;
+color: #606060;
+text-decoration: underline;
+}
+
+.foreign td {
+    padding: 10px 13px;
+}
+
+.foreign tbody tr {
+    border-bottom: 1px solid green;
+}
+
+.foreign tbody tr:nth-of-type(even){
+    background-color: cadetblue;
+}
+
+h2 {
+    text-align: center;
+    color: #606060;
+    text-decoration: underline;
+}
+
+.container {
+    width: 200vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+    padding: 25px;
+
+}
+.container h2 {
+    font-size: xx-large;
+    color: black;
+    font-family: "Trirong", serif;
+
+}
+
+.container .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    max-width: 300px;
+    padding: 20px 15px;
+    margin: 25px 10px;
+    background: #dff9fb;
+    transition: 0.3s ease-in-out;
+}
+.container .card:hover {
+    height: 450px;
+}
+.container .card .imgBx {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    top: -50px;
+    left: 25px;
+}
+
+.container .card .imgBx img {
+    position: relative;
+    height: 250px;
+    max-width: 100%;
+    border-radius: 5px;
+
+}
+
+.container .card .content {
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.container .card .content h1 {
+    font-size: 2em;
+
+}
+
+.container .card:hover .content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: -0.3s;
+}
+
+@media screen and (max-width: 1500px) {
+    .container { 
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+      float: none;
+    }
+  }
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: royalblue;
+    color: white;
+}
