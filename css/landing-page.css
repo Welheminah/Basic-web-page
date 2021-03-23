@@ -79,6 +79,7 @@
 }
 .wrapper ul li a:hover:after{
   transform: scaleY(1);
+  transform: ;
 }
 .wrapper ul li a:hover{
   color: #4158d0;

@@ -59,16 +59,7 @@ section {
     float: right;
 }
 
-@media screen and (max-width: 600px){
-    .header a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-    .header-right{
-        float: none;
-    }
-}
+
 
 
 
@@ -95,8 +86,8 @@ section {
 .foreign {
     border-collapse: collapse;
     margin: 25px 0;
-    font-size: 1.5em;
-    min-width: 600px;
+    font-size: 1em;
+    min-width: 400px;
     border-radius: 5px 5px 0 0;
     overflow: hidden;
     box-shadow: 0 0 20px rgba(red, green, blue, alpha);
@@ -133,24 +124,21 @@ h2 {
     text-decoration: underline;
 }
 
-.container {
+.places {
     width: 200vh; 
-    display: flex;
-    justify-content: center;
     align-items: center;
     position: relative;
-    flex-wrap: wrap;
     padding: 25px;
 
 }
-.container h2 {
+.places h2 {
     font-size: xx-large;
     color: black;
     font-family: "Trirong", serif;
 
 }
 
-.container .card {
+.places .card {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -161,10 +149,10 @@ h2 {
     background: #dff9fb;
     transition: 0.3s ease-in-out;
 }
-.container .card:hover {
+.places .card:hover {
     height: 480px;
 }
-.container .card .imgBx {
+.places .card .imgBx {
     position: relative;
     width: 250px;
     height: 250px;
@@ -172,7 +160,7 @@ h2 {
     left: 25px;
 }
 
-.container .card .imgBx img {
+.places .card .imgBx img {
     position: relative;
     height: 250px;
     max-width: 100%;
@@ -180,7 +168,7 @@ h2 {
 
 }
 
-.container .card .content {
+.places .card .content {
     position: relative;
     margin-top: -140px;
     padding: 10px 15px;
@@ -189,26 +177,40 @@ h2 {
     opacity: 0;
 }
 
-.container .card .content h1 {
+.places .card .content h1 {
     font-size: 2em;
 
 }
 
-.container .card:hover .content {
+.places .card:hover .content {
     visibility: visible;
     opacity: 1;
     margin-top: -40px;
     transition-delay: -0.3s;
 }
 
-@media screen and (max-width: 1500px) {
-    .container { 
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-      float: none;
+@media screen and (min-width: 960px) {
+    .places { 
+      /* width: 100%; */
+      /* display: block; */
+      display: flex;
+      justify-content: center;
+  
+      /* margin-bottom: 20px; */
+      /* float: none; */
     }
-  }
+}
+
+  @media screen and (max-width: 600px){
+    .header a {
+        /* float: none;
+        display: block;
+        text-align: left; */
+    }
+    .header-right{
+        /* float: none; */
+    }
+}
 
 footer {
     text-align: center;
