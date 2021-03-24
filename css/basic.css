@@ -17,12 +17,14 @@ section {
     height: 100;
     margin: 0 auto;
     position: relative;
+    padding: 0 auto;
 }
 
 .header {
     overflow: hidden;
     background-color: #D3D3D3 ;
-    padding: 20px 10px;
+    padding: 20px 10px; 
+    padding-top: 30px;
 }
 
 .header a {
@@ -59,10 +61,16 @@ section {
     float: right;
 }
 
-
-
-
-
+@media screen and (max-width: 600px){
+    .header a {
+        float: none;
+        display: block;
+        text-align: left; 
+    }
+    .header-right{
+         float: none; 
+    }
+}
 .second {
     font-size: xx-large;
     color: #404040;
@@ -191,30 +199,23 @@ h2 {
 
 @media screen and (min-width: 960px) {
     .places { 
-      /* width: 100%; */
-      /* display: block; */
+       width: 100%; 
+       display: block; 
       display: flex;
       justify-content: center;
   
-      /* margin-bottom: 20px; */
-      /* float: none; */
+      margin-bottom: 20px;
+      float: none; 
     }
 }
 
-  @media screen and (max-width: 600px){
-    .header a {
-        /* float: none;
+@media screen and (max-width: 600px) {
+    .left img {
+        float: none;
         display: block;
-        text-align: left; */
+        text-align: left; 
     }
-    .header-right{
-        /* float: none; */
+    .p p{
+         float: none; 
     }
-}
-
-footer {
-    text-align: center;
-    padding: 3px;
-    background-color: royalblue;
-    color: white;
 }

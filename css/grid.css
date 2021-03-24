@@ -182,11 +182,24 @@ p {
   display: none;
 }
 
+@media (max-width: 600px) {
+  .col-4 .col-6 img{
+    float: left; 
+    padding-right: 10px;
+  }
+  .col-4 .col-6 p {
+    padding: 13px;
+  }
+} 
+
 @media (max-width: 540px){
   .col-4 .col-6 {
     width: 35%;
   }
 }
+
+
+
 @media only screen and (min-width: 33.75em) {  /* 540px */
   .container {
     width: 80%;
@@ -197,6 +210,17 @@ p {
   .col-1 {
     width: 4.33%;
   }
+
+@media(max-width: 600px) {
+  .col-6 .left {
+    width: 100%;
+
+  }
+  .col-6 .right {
+    width: 100%;
+    padding-left: 10px;
+  }
+}
 
   .col-2 {
     width: 12.66%;
@@ -253,3 +277,4 @@ p {
     max-width: 60rem;
   }
 }
+
