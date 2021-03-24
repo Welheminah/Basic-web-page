@@ -211,7 +211,7 @@ p {
     width: 4.33%;
   }
 
-@media(max-width: 600px) {
+/*@media(max-width: 600px) {
   .col-6 .left {
     width: 100%;
 
@@ -220,7 +220,7 @@ p {
     width: 100%;
     padding-left: 10px;
   }
-}
+}*/
 
   .col-2 {
     width: 12.66%;
