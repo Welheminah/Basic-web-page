@@ -95,10 +95,13 @@ section {
     border-collapse: collapse;
     margin: 25px 0;
     font-size: 1em;
-    min-width: 400px;
+    min-width: 500px;
     border-radius: 5px 5px 0 0;
     overflow: hidden;
     box-shadow: 0 0 20px rgba(red, green, blue, alpha);
+    table-layout: inherit;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 .foreign thead td {
