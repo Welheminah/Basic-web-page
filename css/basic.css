@@ -72,20 +72,20 @@ section {
     }
 }
 .second {
-    font-size: xx-large;
     color: #404040;
 }
 
-.second h1 {
+.second h2 {
     text-align: center;
-    font-size: 40px;
-    font-weight: bolder;
+    /*font-weight: bolder; */
     text-decoration: underline;
     color: #778899;
-    font-family: "Trirong", serif;
+    font-family: sans-serif;
     border-top: 5px solid #778899;
 }
-
+.second p {
+    padding: 1em;
+}
 .second img {
     padding: 1em;
 }
@@ -95,7 +95,7 @@ section {
     border-collapse: collapse;
     margin: 25px 0;
     font-size: 1em;
-    min-width: 500px;
+    min-width: 1300px;
     border-radius: 5px 5px 0 0;
     overflow: hidden;
     box-shadow: 0 0 20px rgba(red, green, blue, alpha);
@@ -112,7 +112,6 @@ section {
 
 }
 .tafel h2{
-font-size: xx-large;
 color: #606060;
 text-decoration: underline;
 }
@@ -133,6 +132,14 @@ h2 {
     text-align: center;
     color: #606060;
     text-decoration: underline;
+} 
+@media screen and (max-width: 540px) {
+    .foreign { 
+       width: 50%; 
+       display: block;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
 }
 
 .places {

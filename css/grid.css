@@ -196,7 +196,12 @@ p {
   .col-4 .col-6 {
     width: 35%;
   }
+    .foreign { 
+       width: 94%; 
+    
+    }
 }
+
 
 
 
@@ -210,18 +215,7 @@ p {
   .col-1 {
     width: 4.33%;
   }
-
-/*@media(max-width: 600px) {
-  .col-6 .left {
-    width: 100%;
-
-  }
-  .col-6 .right {
-    width: 100%;
-    padding-left: 10px;
-  }
-}*/
-
+ 
   .col-2 {
     width: 12.66%;
   }
