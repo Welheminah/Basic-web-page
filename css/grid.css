@@ -197,7 +197,6 @@ p {
     width: 35%; 
   }
   .col-4 .goodText {
-float: right;
   }
   .col-4 .goodPic {
     float: inline-start;
