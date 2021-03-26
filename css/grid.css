@@ -194,7 +194,15 @@ p {
 
 @media (max-width: 540px){
   .col-4 .col-6 {
-    width: 35%;
+    width: 35%; 
+  }
+  .col-4 .goodText {
+float: right;
+  }
+  .col-4 .goodPic {
+    float: inline-start;
+    
+
   }
     .foreign { 
        width: 94%; 
