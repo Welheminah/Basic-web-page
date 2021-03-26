@@ -102,6 +102,7 @@ section {
     table-layout: inherit;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 5em;
 
 }
 .foreign thead td {
@@ -137,7 +138,7 @@ h2 {
     color: #606060;
     text-decoration: underline;
 } 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 786px) {
     .foreign { 
        width: 50%; 
         display: block;
